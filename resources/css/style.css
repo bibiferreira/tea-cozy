@@ -1,0 +1,167 @@
+@media (min-width: 600px) and (max-width: 1200px) {
+}
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
+
+html, body {
+  background-color: #799FA8;
+  font-family: "DM serif display", serif;
+  font-size: 22px;
+  color: #F5F2D5;
+  text-align: center;
+}
+
+/* --- HEADER --- */
+
+header {
+  width: 100%;
+  height: 75px;
+  background-color: #A87184;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #F5F2D5;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+}
+header img {
+  height: 50px;
+  width: auto;
+  margin-left: 10px;
+  margin-top: 15px;
+}
+nav li {
+  display: inline-flex;
+}
+nav {
+  margin-right: 40px;
+}
+nav a {
+  color: white;
+  text-decoration: underline;
+  opacity: 0.9;
+  font-style: italic;
+}
+li a {
+  color: white;
+  text-decoration: underline;
+  margin: 0 10px;
+}
+
+/* --- MISSION ---*/
+
+#mission {
+  width: 1200px;
+  height: 750px;
+  background-image: url("../images/img-mission-background.jpg");
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 2px;
+}
+.mission-statement {
+  background-color: #799FA8;
+  width: 100%;
+  height: auto;
+}
+
+/* --- MAIN --- */
+
+main {
+  width: 100%;
+  margin-top: 50px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h2, h4 {
+  margin: 10px 0;
+  font-family: "DM serif display", serif;
+  font-weight: bold;
+  font-style: italic;
+  color: #000;
+  opacity: 0.6;
+}
+h4 {
+  color: #F5F2D5;
+}
+
+/* --- FEATURED SECTION --- */
+
+#featured-tea {
+  width: 1000px;
+  height: auto;
+  margin-top: 40px;
+}
+figure {
+  display: inline-flex;
+  flex-direction: column;
+  margin-right: 10px;
+  margin-left: 5px;
+}
+figure img {
+  width: 300px;
+  height: 200px;
+}
+figcaption {
+  margin-top: 10px;
+  font-size: 19px;
+  font-style: italic;
+  opacity: 0.8;
+  color: #000;
+}
+
+/*--- LOCATIONS ---*/
+
+#locations {
+  width: 100%;
+  height: 500px;
+  background-image: url("../images/img-locations-background.jpg");
+  margin-top: 10px;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  justify-content: space-between;
+}
+.address-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  column-gap: 40px;
+  margin: 0 40px;
+}
+#locations h2 {
+  margin-bottom: 20px;
+  margin-top: 60px;
+}
+.address {
+  width: 280px;
+  height: 300px;
+  background-color: #000;
+  opacity: 0.6;
+}
+.address p {
+  padding-top: 15px;
+}
+
+/* --- CONTACT --- */
+
+.contact {
+  height: 200px;
+  width: 100%;
+  background-color: #A87184;
+}
+.contact h2 {
+  margin-top: 40px;
+}
+
+/* --- FOOTER --- */
+
+h6 {
+  padding-left: 20px;
+  text-align: left;
+  opacity: 0.8;
+  font-weight: bold;
+}
